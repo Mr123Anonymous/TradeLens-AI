@@ -96,7 +96,7 @@ This system automates the extraction of structured data from trade documents and
 1. **Clone the repository**
 ```bash
 git clone <your-repo-url>
-cd DocInt
+cd TradeLens-AI
 ```
 
 2. **Create virtual environment**
@@ -187,7 +187,6 @@ Generated directories:
 | **Vector DB** | FAISS |
 | **Storage** | SQLite, JSON, CSV |
 | **Web Framework** | Streamlit |
-| **API (optional)** | FastAPI |
 | **Data Processing** | Pandas, NumPy |
 
 ## 🔍 Usage Examples
@@ -294,7 +293,6 @@ Save this as a PDF and upload through the Streamlit interface or process via CLI
 - [ ] **Table extraction** (line items from invoice tables)
 - [ ] **Document classification** (invoice vs. bill of lading vs. other)
 - [ ] **Duplicate detection** (find duplicate invoices)
-- [ ] **API development** (FastAPI REST endpoints)
 - [ ] **Batch processing** (async document processing)
 - [ ] **Advanced analytics** (spending patterns, supplier analysis)
 - [ ] **Export formats** (Excel, PDF reports)
@@ -354,15 +352,12 @@ pip install -r requirements.txt
 # Run Streamlit app
 streamlit run app.py
 
-# Run FastAPI (optional)
-uvicorn api:app --reload
-
 # Install Tesseract (Windows)
 # Download from: https://github.com/UB-Mannheim/tesseract/wiki
 
 # Install Ollama (for local LLM)
 # Download from: https://ollama.ai
-ollama pull llama3
+ollama pull mistral
 ```
 
 ---
