@@ -343,21 +343,6 @@ For questions or issues, please open an issue on GitHub or contact [sohanneogi@g
 
 **Built with ❤️ for the trade finance community**
 
-## 🎥 Demo Video
-
-[Link to demo video]
-
-## 📸 Screenshots
-
-### Upload Interface
-![Upload](screenshots/upload.png)
-
-### Search Results
-![Search](screenshots/search.png)
-
-### Analytics Dashboard
-![Dashboard](screenshots/dashboard.png)
-
 ---
 
 ### Quick Command Reference
