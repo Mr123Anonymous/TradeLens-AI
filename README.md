@@ -96,7 +96,7 @@ This system automates the extraction of structured data from trade documents and
 1. **Clone the repository**
 ```bash
 git clone <your-repo-url>
-cd TradeLens-AI
+cd TradeLens
 ```
 
 2. **Create virtual environment**
