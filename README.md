@@ -127,7 +127,7 @@ copy .env.example .env
 
 #### Option 1: Streamlit Web Interface (Recommended)
 ```bash
-streamlit run app.py
+streamlit run app.py --server.fileWatcherType none
 ```
 
 Then open your browser to `http://localhost:8501`
